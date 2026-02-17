@@ -75,3 +75,5 @@ Measures were designed to dynamically respond to slicers and filter context.
 • Delivery performance impacts review ratings.
 • Revenue concentration exists among top customers and sellers.
 • Credit card dominates payment usage.
+
+<img width="846" height="394" alt="image" src="https://github.com/user-attachments/assets/d8a30651-a00b-42ee-ba44-a9e8d8fbb984" />
