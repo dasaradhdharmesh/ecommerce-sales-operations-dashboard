@@ -1,8 +1,8 @@
-📊 E-Commerce Sales & Operations Analytics Dashboard
+## 📊 E-Commerce Sales & Operations Analytics Dashboard
 
 End-to-end Power BI dashboard analyzing sales performance, operational efficiency, customer behavior, seller contribution, payment patterns, and customer reviews.
 
-🔎 Project Overview
+## 🔎 Project Overview
 
 This dashboard was built to provide a unified analytical view of e-commerce performance across the complete transaction lifecycle — from order placement to customer feedback.
 
@@ -12,7 +12,7 @@ The focus was on:
 • Business-driven insights
 • Performance-conscious DAX
 
-🎯 Business Objective
+## 🎯 Business Objective
 
 E-commerce data is often fragmented across multiple operational areas.
 This project consolidates:
@@ -24,7 +24,7 @@ This project consolidates:
 • Payment trends
 • Customer satisfaction into a single, interactive reporting layer.
 
-🏗️ Data Model
+## 🏗️ Data Model
 
 The solution follows a star schema architecture.
 
@@ -39,7 +39,7 @@ The solution follows a star schema architecture.
 • Products
 • Sellers
 
-All relationships are primarily one-to-many with single-direction filtering to ensure performance and avoid ambiguity.
+## All relationships are primarily one-to-many with single-direction filtering to ensure performance and avoid ambiguity.
 
 📐 Key Metrics Implemented
 
@@ -53,7 +53,7 @@ All relationships are primarily one-to-many with single-direction filtering to e
 
 Measures were designed to dynamically respond to slicers and filter context.
 
-📈 Dashboard Pages
+## 📈 Dashboard Pages
 
 • Executive Overview
 • Sales Performance Overview
@@ -63,13 +63,13 @@ Measures were designed to dynamically respond to slicers and filter context.
 • Seller & Payment Insights
 • Reviews & Ratings Insights
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 
 • Power BI
 • DAX
 • Star Schema Modeling
 
-💡 Key Insights
+## 💡 Key Insights
 
 • Revenue growth is primarily driven by order volume.
 • Delivery performance impacts review ratings.
