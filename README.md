@@ -1,30 +1,45 @@
-E-Commerce Sales & Operations Dashboard
+📊 E-Commerce Sales & Operations Analytics Dashboard
 
-This project is an end-to-end Power BI dashboard built to analyze e-commerce performance across sales, operations, customers, products, sellers, payments, and reviews.
+End-to-end Power BI dashboard analyzing sales performance, operational efficiency, customer behavior, seller contribution, payment patterns, and customer reviews.
 
-The goal was to create a centralized analytical view that helps answer business questions related to revenue trends, operational efficiency, customer behavior, and service quality.
+🔎 Project Overview
 
-Why I Built This
+This dashboard was built to provide a unified analytical view of e-commerce performance across the complete transaction lifecycle — from order placement to customer feedback.
 
-E-commerce businesses generate large volumes of data, but insights are often scattered across different reports. I wanted to design a structured, KPI-driven dashboard that integrates transactional and operational data into one clear reporting layer.
+The focus was on:
 
-Instead of focusing only on visuals, I emphasized:
+Clean data modeling
 
-Clean data modeling (star schema)
+Reliable KPI calculations
 
-Proper relationship design
+Business-driven insights
 
-Efficient DAX measures
+Performance-conscious DAX
 
-Performance-friendly calculations
+🎯 Business Objective
 
-Clear business storytelling
+E-commerce data is often fragmented across multiple operational areas.
+This project consolidates:
 
-Data Model Overview
+Sales performance
 
-The model follows a star schema structure.
+Delivery efficiency
 
-Fact tables:
+Customer behavior
+
+Product and seller contribution
+
+Payment trends
+
+Customer satisfaction
+
+into a single, interactive reporting layer.
+
+🏗️ Data Model
+
+The solution follows a star schema architecture.
+
+Fact Tables
 
 Orders
 
@@ -34,7 +49,7 @@ Payments
 
 Reviews
 
-Dimension tables:
+Dimension Tables
 
 Date
 
@@ -44,11 +59,9 @@ Products
 
 Sellers
 
-Relationships are primarily one-to-many with single-direction filtering to avoid ambiguity and maintain predictable behavior across visuals.
+All relationships are primarily one-to-many with single-direction filtering to ensure performance and avoid ambiguity.
 
-Key Metrics Implemented (DAX)
-
-Some of the core measures include:
+📐 Key Metrics Implemented
 
 Total Revenue
 
@@ -64,40 +77,35 @@ Revenue per Seller
 
 5-Star Review %
 
-All measures were built to dynamically respond to slicers and filter context.
+Measures were designed to dynamically respond to slicers and filter context.
 
-Dashboard Coverage
-
-The dashboard includes:
+📈 Dashboard Pages
 
 Executive Overview
 
-Sales Performance Analysis
+Sales Performance Overview
 
-Delivery & Operations Monitoring
+Delivery & Operations Overview
 
 Customer & Revenue Insights
 
-Product & Category Performance
+Product & Category Insights
 
-Seller & Payment Analysis
+Seller & Payment Insights
 
 Reviews & Ratings Insights
+🛠️ Tools Used
 
-Key Takeaways
+Power BI
+DAX
+Star Schema Modeling
 
-Revenue growth is primarily driven by order volume rather than AOV fluctuations.
+💡 Key Insights
 
-Delivery performance has a visible impact on customer ratings.
+Revenue growth is primarily driven by order volume.
+
+Delivery performance impacts review ratings.
 
 Revenue concentration exists among top customers and sellers.
 
-Payment behavior is dominated by credit-based transactions.
-
-Tools Used
-
-Power BI
-
-DAX
-
-Data Modeling (Star Schema)
+Credit card dominates payment usage.
